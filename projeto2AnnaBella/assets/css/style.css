@@ -6,7 +6,9 @@
 }
 
 .fundo {
-  background-image: url('../img/fundo.png');
+  background: #d2d2c1 url('../img/fundo.png');
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
 
 .cabecalho {
@@ -17,21 +19,23 @@
 .menu {
   display: flex;
   justify-content: center;
+  flex-flow: wrap;
   width: 70%;
   padding: 20px 40px;
-  background-color: rgb(214, 211, 166);
+  background-color: #c5c5b2;
 }
 .menu > a {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  color: rgb(67, 93, 143);
+  color: #4b566a;
   text-decoration: none;
   padding: 0px 14px;
 }
 menu,
 a:hover {
-  background-color: rgb(252, 243, 229);
+  background-color: #e8e8d9;
+  border-radius: 50px;
 }
 main {
   display: flex;
@@ -48,7 +52,7 @@ main {
   align-items: center;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(252, 243, 229);
+  background-color: #e8e8d9;
   width: 70%;
 }
 .fotos {
