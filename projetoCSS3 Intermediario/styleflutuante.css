@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #f4f4f4;
+}
+.clear {
+  clear: both;
+}
+#principal {
+  width: 920px;
+}
+.noticia {
+  background: gray;
+  padding: 5px;
+  width: 280px;
+  margin: 7px;
+  float: left;
+}
+.imagem-galeria {
+  background: white;
+  width: 265px;
+  padding: 5px;
+  margin: 15px;
+  float: left;
+}
