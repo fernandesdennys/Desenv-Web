@@ -25,7 +25,7 @@
   background-color: #c5c5b2;
 }
 .menu > a {
-  font-size: 18px;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   color: #4b566a;
@@ -43,7 +43,7 @@ main {
 }
 .titulo {
   color: rgb(148, 146, 116);
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: left;
   padding-bottom: 20px;
 }
@@ -56,11 +56,10 @@ main {
   width: 70%;
 }
 .fotos {
-  border: 10px solid rgb(148, 146, 116);
+  border: 10px outset rgb(148, 146, 116);
 }
 .rodape {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   padding: 25px 0px;
