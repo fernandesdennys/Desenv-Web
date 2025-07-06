@@ -1,0 +1,24 @@
+@charset "UTF-8";
+* {
+  border: 1px solid red;
+}
+p.verde {
+  color: green;
+}
+li > a {
+  /* SELETOR FILHO */
+  text-decoration: none;
+  color: black;
+}
+div a {
+  /* SELETOR DESCENTENDE */
+  color: orangered;
+}
+h1 + p {
+  /* SELETOR ADJACENTE */
+  color: blueviolet;
+}
+#cabecalho ~ p {
+  /* SELETOR DE IRMÃO GERAL */
+  color: chartreuse;
+}
