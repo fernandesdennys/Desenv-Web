@@ -1,0 +1,15 @@
+@charset "UTF-8";
+* {
+  color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+color: red;/*3*/
+}
+h1.color {
+  color: blueviolet;/*2*/
+}
+h1#color {
+  color: aqua;/*1*/
+}
