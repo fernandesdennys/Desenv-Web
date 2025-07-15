@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.caixa {
+  margin: 50px auto;
+  width: 400px;
+  background: #dedede url(../img/fundo-arredondamento.png) repeat-y left top;
+}
+ .caixa h1 {
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+  background: url(../img/topo2.png)no-repeat left top;
+}
+.caixa p {
+  padding:  10px 20px;
+}
+.caixa .ultimo {
+  background: url(../img/baixo2.png) no-repeat left bottom;
+  width: 400px;
+  height: 24px;
+}
+
+/* .caixa p {
+  padding: 0px 20px 20px 20px;
+  background: url(../img/baixo2.png) no-repeat left bottom;
+} */
