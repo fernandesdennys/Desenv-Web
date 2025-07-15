@@ -1,0 +1,102 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+body {
+  background: #fff url(../img/fundo.png)repeat-x;
+}
+#container {
+  width: 750px;
+  margin: 0px auto;
+  
+}
+#topo {
+  height:  180px;
+  background: url(../img/detalhe-topo.png) no-repeat right top;
+  padding-top:25px ;
+  /* border: 1px solid red; */
+}
+.logo {
+  width: 152px;
+  height: 66px;
+  background: url(../img/logo.png);
+}
+/* BARRA DE NAVEGAÇÃO */
+#menu {
+  width: 600px;  
+}
+#menu ul {
+  /* padding: 0.95em; 
+  list-style: none; */
+  margin-top: 30px;
+  background-color: red;
+}
+#menu ul li{
+  display: inline;
+  list-style: none;
+} 
+#menu ul a {
+  line-height: 2.1em;
+  font-size: 0.9em;
+  color: #fff;
+  padding:  0.5em 0.97em;
+  background: url(../img/divisor.png) no-repeat left center;
+}
+#menu ul a:hover {
+  color: black
+}
+#menu ul .primeiro a {
+background: none;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.fotos #navegacao a#fotos {
+  color: #fff;
+  background: #2a4c79;
+  cursor: pointer;
+}
+
+/* CONTEÚDOI */
+#conteudo {
+  background: lightblue;
+  margin-top: 60px;
+}
+#primario{
+  width: 270px;
+  float: left;
+  margin: 0px 0px 20px 195px;
+  background: blue;
+}
+#secundario {
+  width: 270px;
+  float: left;
+  margin: 0px 0px 20px 15px;
+  background-color: green;
+}
+
+#lateral {
+  width: 180px;
+  float: left;
+  margin: 0px 0px 20px -750px;
+  background: red;
+}
+
+/* RODAPÉ */
+#container-rodape {
+  background-color: #2a4c79;
+  padding: 15px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  clear: both;
+}
+
+ 
