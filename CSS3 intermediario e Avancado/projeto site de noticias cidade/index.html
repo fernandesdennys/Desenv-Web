@@ -7,10 +7,10 @@
     <title>Notícia Cidade - Seu site de Notícias</title>
   </head>
   <body class="home">
-    
     <div id="container"><!-- INÍCIO CONTAINER -->
 
       <div id="topo"><!-- INIÍCIO TOPO -->
+        
         <div class="logo"></div>
         <nav id="menu">
           <ul id="navegacao">
@@ -22,8 +22,8 @@
             </li>
             <li>
               <a id="internacional" href="./assets/html/internacional.html"
-                >Internacional</a>
-
+                >Internacional</a
+              >
             </li>
             <li>
               <a id="economia" href="./assets/html/economia.html">Economia</a>
@@ -40,24 +40,146 @@
           </ul>
         </nav>
       </div><!-- FIM TOPO -->
+      
 
-      <div id="conteudo"><!-- INÍCIO CONTEÚDO -->
-        
+      <div id="conteudo"> <!-- INÍCIO CONTEÚDO -->
+       
+
         <div id="primario"><!-- INÍCIO PRIMÁRIO -->
-          <div class="caixa">
-            <h2>Entrevistas</h2>
-            <div class="caixa-conteudo">Conteúdo</div>
-          </div>
-        </div><!-- FIM PRIMÁRIO -->
+          
+          <div class="caixa destaque">
+            <h2>Destaque</h2>
+            <div class="caixa-conteudo">
+              <h3>Nova Legislação</h3>
+              <img
+                class="imagem-principal"
+                src="./assets/img/taxi.jpg"
+                alt="Taxi"
+                width="100%"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur ex doloremque commodi doloribus error est tempora
+                temporibus voluptatem.
+              </p>
+              <a href="assets/html/nova-legislacao.html">Leia Mais!</a>
+            </div>
+          </div><!-- FIM PRIMÁRIO -->
+          
 
-        <div id="secundario"> <!-- INÍCIO SECUNDÁRIO -->
           <div class="caixa">
-            <h2>Entrevistas</h2>
-            <div class="caixa-conteudo">Conteúdo</div>
+            <h2>Mundo</h2>
+            <div class="caixa-conteudo">
+              <ul id="lista-noticias">
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/tecnologia.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/tecnologia.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/tecnologia.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/tecnologia.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="secundario"><!-- INÍCIO SECUNDÁRIO -->
+          
+          <div class="caixa entrevista">
+            <h2>Última Entrevista</h2>
+            <div class="caixa-conteudo">
+              <h3>Entrevista com Felipe Silva</h3>
+              <img
+                class="imagem-principal"
+                src="./assets/img/doutor.jpg"
+                alt="Taxi"
+                width="100%"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Consequuntur ex doloremque commodi doloribus error est tempora
+                temporibus voluptatem.
+              </p>
+              <a href="#">Leia Mais!</a>
+            </div>
+          </div>
+          <div class="caixa">
+            <h2>Notícias Recentes</h2>
+            <div class="caixa-conteudo">
+              <ul id="lista-noticias">
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/cidade.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/tecnologia.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/taxi.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/img/doutor.jpg" alt="" width="80" />
+                    <h3>Novas Tecnologias!</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div><!-- FIM SECUNDÁRIO -->
+        
 
         <div id="lateral"><!-- INÍCIO LATERAL -->
+          
           <div class="caixa">
             <h2>Entrevistas</h2>
             <div class="caixa-conteudo">
@@ -80,22 +202,26 @@
               <form action="">
                 <div>
                   <label for="">E-mail:</label>
-                  <input type="text" name="email" id="email" placeholder="digite seu e-mail">
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="digite seu e-mail"
+                  />
                   <div>
-                    <input class="submit" type="submit" value="Cadastrar">
+                    <input class="submit" type="submit" value="Cadastrar" />
                   </div>
                 </div>
               </form>
             </div>
           </div>
-
-          
         </div><!-- FIM LATERAL -->
         
-      </div><!-- FIM CONTEÚDO -->
+      </div><!-- FIM CONTAIINER -->
       
-    </div><!-- FIM CONTAIINER -->
+    </div><!-- FIM CONTEÚDO -->
     
+
     <footer id="container-rodape">
       &copy; Copyright 2000-2025 Notícias Cidade
     </footer>

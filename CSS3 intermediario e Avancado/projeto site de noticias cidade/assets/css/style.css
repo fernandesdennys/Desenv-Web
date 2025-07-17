@@ -7,17 +7,16 @@
     'Lucida Sans', Arial, sans-serif;
 }
 body {
-  background: #fff url(../img/fundo.png)repeat-x;
+  background: #fff url(../img/fundo.png) repeat-x;
 }
 #container {
   width: 750px;
   margin: 0px auto;
-  
 }
 #topo {
-  height:  180px;
+  height: 180px;
   background: url(../img/detalhe-topo.png) no-repeat right top;
-  padding-top:25px ;
+  padding-top: 25px;
   /* border: 1px solid red; */
 }
 .logo {
@@ -26,8 +25,17 @@ body {
   background: url(../img/logo.png);
 }
 /* BARRA DE NAVEGAÇÃO */
+a:link,
+a:visited {
+  color: #b10333;
+  padding: 2px;
+}
+a:hover {
+  color: #e50040;
+}
+
 #menu {
-  width: 600px;  
+  width: 600px;
 }
 ul {
   margin: 0px;
@@ -38,22 +46,22 @@ ul {
   margin-top: 30px;
   background-color: red;
 }
-#menu ul li{
+#menu ul li {
   display: inline;
   list-style: none;
-} 
+}
 #menu ul a {
   line-height: 2.1em;
   font-size: 0.9em;
   color: #fff;
-  padding:  0.5em 0.97em;
+  padding: 0.5em 0.97em;
   background: url(../img/divisor.png) no-repeat left center;
 }
 #menu ul a:hover {
-  color: black
+  color: black;
 }
 #menu ul .primeiro a {
-background: none;
+  background: none;
 }
 body.home #navegacao a#home,
 body.brasil #navegacao a#brasil,
@@ -77,22 +85,17 @@ body.fotos #navegacao a#fotos {
   float: left;
   margin: 0px 0px 20px -750px;
 }
-#tres-colunas #primario{
-  width: 270px;
-  float: left;
-  margin: 0px 0px 20px 195px;
-  background: blue;
-}
- #primario{
+
+#primario {
   width: 270px;
   float: left;
   margin: 0px 0px 20px 195px;
 }
-#duas-colunas #primario{
+#duas-colunas #primario {
   width: 555px;
 }
 
-#uma-colunas #primario{
+#uma-coluna #primario {
   width: 750px;
   margin: 0px 0px 20px;
 }
@@ -158,6 +161,52 @@ input.submit {
   border: 2px solid #870529;
 }
 
+/* FORMATAÇÃO IMAGENS */
+img.imagem-principal {
+  width: 98%;
+  border: 3px solid #dfdfdf;
+}
+/* FORMATANDO CABEÇALHO */
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+.destaque h3 {
+  background: #b10333;
+  color: #ffff;
+}
+.entrevista h3 {
+  background: #de003e;
+  color: #000;
+}
+/* FORMATAÇÃO LISTA DE NOTÍCIAS */
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 64px;
+}
+#lista-noticias li a img {
+  float: left;
+  margin: 5px;
+}
+#lista-noticias li a {
+  text-decoration: none;
+}
+#lista-noticias li a h3 {
+  font-size: 0.8em;
+  padding: 0px;
+  color: #3e7ab9;
+}
+#lista-noticias li a p {
+  font-size: 0.7em;
+  color: #000;
+}
+#lista-noticias:hover {
+  background: #eee;
+  cursor: pointer;
+}
 
 /* RODAPÉ */
 #container-rodape {
@@ -168,5 +217,3 @@ input.submit {
   text-align: center;
   clear: both;
 }
-
- 
