@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css" />
+    <title>Bootstrap - Alinhamento de textos</title>
+  </head>
+  <body style="margin-bottom: 200px; padding: 16px">
+    <!-- Parágrafo justificado (OBS: USAR DIRETO NO CSS) -->
+    <p style="text-align: justify">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto porro
+      quod eius, aspernatur voluptatibus accusantium pariatur soluta,
+      exercitationem beatae recusandae officia dolorum eaque magnam sint ab
+      voluptate praesentium? Sed, perspiciatis. Lorem ipsum dolor sit amet
+      consectetur, adipisicing elit. Labore deleniti fuga, atque consequatur
+      doloribus molestiae ratione expedita ipsum, consequuntur itaque ea nisi
+      aut numquam illum hic iure amet doloremque maiores?
+    </p>
+
+    <br />
+    <br />
+
+    <!-- Alinhamento responsivo - 
+       class text-<tela>-<alinhamento>
+        tela: sm, md, lg, xl
+        alinhamento: left, center, right
+        -->
+    <p class="text-sm-end">tela &GT;= 576 SM (SMALL)</p>
+    <!-- Small -->
+    <p class="text-md-center">tela &GT;= 768 MD (MEDIUM)</p>
+    <!-- Medium -->
+    <p class="text-lg-center">tela &GT;= 992 LG (LARGE)</p>
+    <!-- Large -->
+    <p class="text-xl-end">tela &GT;= 1200 XG (EXTRA LARGE)</p>
+    <!-- Extra Large -->
+
+    <br />
+    <br />
+
+    <!-- Elementos Block para inline -->
+    <h1 class="bg-success d-inline">Lorem ipsum dolor sit amet.</h1>
+    <p class="bg-success">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, reiciendis!
+      Culpa, consequatur. Aspernatur, laboriosam voluptates cum eos natus,
+      labore odio dolore corrupti iste necessitatibus a, dolorum unde dicta
+      libero et!
+    </p>
+
+    <br />
+    <br />
+
+    <!-- Elemento Inline para Block -->
+    <span class="bg-success d-block"
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit (1)
+    </span>
+    <br />
+    <span class="bg-success d-block"
+      >Lorem ipsum dolor sit amet, consectetur adipisicing elit (2).
+    </span>
+
+    <br />
+    <br />
+
+    <!-- Elemento Inline-Block -->
+    <div class="bg-warning">
+      <h3 class="bg-success d-inline-block">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+      <h3
+        class="bg-success d-inline-block"
+        style="margin-top: 50px; width: 400px"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </h3>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
