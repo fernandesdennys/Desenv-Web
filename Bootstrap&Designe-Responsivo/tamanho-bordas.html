@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css" />
+    <title>Bootstrap Tamanho e Bordas</title>
+  </head>
+
+  <body style="margin-bottom: 200px; margin: 0 auto; width: 600px">
+    <!-- Clases de largura -->
+    <div class="bg-primary w-25">width 25%</div>
+    <div class="bg-primary w-50">width 40%</div>
+    <div class="bg-primary w-75">width 75%</div>
+    <div class="bg-primary w-100">width 100%</div>
+    <div class="bg-primary w-auto">width auto</div>
+
+    <br />
+    <br />
+
+    <!-- Classes de altura -->
+    <div style="height: 300px; border: 1px solid gray">
+      <div class="bg-warning d-inline-block h-25">height 25%</div>
+      <div class="bg-warning d-inline-block h-50">height 50%</div>
+      <div class="bg-warning d-inline-block h-75">height 75%</div>
+      <div class="bg-warning d-inline-block h-100">height 100%</div>
+      <div class="bg-warning d-inline-block h-auto">height auto</div>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- Bordas
+border        -> todas as bordas
+border-top    -> borda superior
+border-bottom -> borda inferior
+border-end    -> borda direita
+border-start  -> borda esquerda
+
+Cores de bordas
+border-<cor>: primary, secondary, success, info, warning, danger, light, dark, white
+Espessura de bordas
+border-(0 até 5)
+-->
+    <div class="bg-white mb-2 border border-2 border-primary">
+      Todas as bordas
+    </div>
+    <div class="bg-white mb-2 border-top border-2 border-secondary">
+      Borda superior
+    </div>
+    <div class="bg-white mb-2 border-bottom border-2 border-info">
+      Borda inferior
+    </div>
+    <div class="bg-white mb-2 border-end border-2 border-danger">
+      Borda esquerda
+    </div>
+    <div class="bg-white mb-2 border-start border-2 border-dark">
+      Borda direita
+    </div>
+
+    <br />
+    <br />
+
+    <!-- Border Radius 
+opções: rounded, rounded-top, rounded-end, rounded-start, rounded-end, rounded-circle. 
+-->
+    <div class="bg-light mb-2 border border-2 border-danger rounded">
+      Rounded
+    </div>
+    <div class="bg-light mb-2 border border-2 border-danger rounded-top">
+      Rounded top
+    </div>
+    <div class="bg-light mb-2 border border-2 border-danger rounded-bottom">
+      Rounded bottom
+    </div>
+    <div class="bg-light mb-2 border border-2 border-danger rounded-end">
+      Rounded end
+    </div>
+    <div class="bg-light mb-2 border border-2 border-danger rounded-start">
+      Rounded start
+    </div>
+    <div
+      class="bg-light mb-2 border border-2 border-danger p-5 w-25 rounded-circle"
+      style="display: flex; justify-content: center"
+    >
+      Rounded circle
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
