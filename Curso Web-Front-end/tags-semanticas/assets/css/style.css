@@ -21,7 +21,7 @@ main {
 
 header#menu {
   height: 700px;
-  background: var(--cor-header-inicio) url(../img/bg-3.jpg) no-repeat center center;
+  background: var(--cor-header-inicio) url(../img/bg-3.jpg) no-repeat right center;
  
 }
 div.nav {
@@ -49,8 +49,7 @@ div.nav {
   text-decoration: none;
 } 
 #menu h1 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: 250px;
   font-size: 5em;
   text-shadow: 2px 2px 5px var(--cor-header-inicio);
