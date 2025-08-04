@@ -10,12 +10,12 @@
 body {
   max-width: 70%;
   margin: auto;
-  background-color: lightgray;
+  background-color: darkgray;
 }
 
 h1 {
-  color: blue;
-  background-color: gray;
+  color: rgb(15, 15, 122);
+  background-color: rgb(151, 157, 247);
   text-align: center;
   font-weight: bold;
   margin-top: 20px;
@@ -24,17 +24,28 @@ h1 {
 p.status {
   text-align: center;
   margin-bottom: 30px;
+  font-size: 13px;
 }
+
+h4 {
+  padding-bottom: 4px;
+}
+
 p {
   margin-bottom: 20px;
+  font-size: 13px;
 }
 
 h2 {
-  color: blue;
-  background-color: darkgrey;
-  border-bottom: solid 2px blue;
+  text-align: center;
+  color: rgb(5, 5, 119);
+  background-color: grey;
+  border-radius: 15px;
+  text-indent: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid 2px rgb(5, 5, 119);
   margin-bottom: 10px;
 }
 span {
-  color: blue;
+  color: rgb(0, 0, 255);
 }
