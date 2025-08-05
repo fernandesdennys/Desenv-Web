@@ -48,15 +48,20 @@ div.nav {
   display: block;
   text-decoration: none;
 } 
+
+#menu #titulo-central{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 #menu h1 {
-  text-align: center;
   margin-top: 250px;
   font-size: 5em;
   text-shadow: 2px 2px 5px var(--cor-header-inicio);
   color: var(--cor-texto-branco);
 }
-#menu p {
-  margin: auto;
+#menu p {  
   margin-top: 30px;
   background: #0000009f;
   color: white;
