@@ -6,94 +6,309 @@
   box-sizing: border-box;
 }
 
-section {
+/* =========================
+   BODY
+========================= */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f5f7;
+  color: #172b4d;
+
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  padding: 32px 40px;
+
+  padding: 20px;
 }
 
-#trelo_head > p {
-  padding: 10px 0;
-  font-weight: bold;
-  font-size: 15px;
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.login-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#box_input {
+/* =========================
+   CARD LOGIN
+========================= */
+
+.login-card {
+  background-color: white;
+
+  width: 100%;
+  max-width: 420px;
+
+  padding: 40px;
+
+  border-radius: 8px;
+
+  box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.05),
+    0 10px 25px rgba(0, 0, 0, 0.08);
+
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 
-#box_input > input {
-  padding: 5px;
-  height: 40px;
-  width: 300px;
+/* =========================
+   HEADER
+========================= */
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#box_input > p {
-  margin: 15px 0;
-  font-weight: bold; /* AQUI (se for texto abaixo do input) */
+.login-header img {
+  width: 200px;
+  margin-bottom: 15px;
 }
 
-#box_button {
+.login-header h1 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* =========================
+   INPUT GROUP
+========================= */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.form-group span {
+  color: red;
+}
+
+.form-group input {
+  height: 42px;
+
+  padding: 0 12px;
+
+  border: 1px solid #dfe1e6;
+  border-radius: 4px;
+
+  font-size: 0.95rem;
+
+  outline: none;
+
+  transition: 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #0052cc;
+
+  box-shadow: 0 0 0 2px rgba(0, 82, 204, 0.2);
+}
+
+/* =========================
+   CHECKBOX
+========================= */
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.checkbox-group input {
+  cursor: pointer;
+}
+
+/* =========================
+   BOTÃO PRINCIPAL
+========================= */
+
+.btn-primary {
+  height: 42px;
+
+  border: none;
+  border-radius: 4px;
+
+  background-color: #0052cc;
+
+  color: white;
+
+  font-size: 0.95rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0747a6;
+}
+
+/* =========================
+   LOGIN SOCIAL
+========================= */
+
+.social-login {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 300px;
 }
 
-#box_button > span {
-  font-weight: bold; /* corrigido */
-  color: gray;
-  display: flex;
-  justify-content: center;
-}
+/* Texto divisório */
 
-#box_button > button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.divider {
+  text-align: center;
+
+  font-size: 0.9rem;
   font-weight: bold;
-  height: 40px;
-  background-color: white;
-  border: 2px solid lightgray;
+
+  color: #6b778c;
 }
 
-#box_button > #submit_button {
-  border-radius: 3px;
-  border: none;
-  background-color: rgb(75, 75, 250);
-  color: white;
-}
+/* Botões sociais */
 
-#box_button > button > img {
-  width: 25px;
-  margin-right: 5px;
-}
+.social-button {
+  height: 42px;
 
-footer {
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  gap: 10px;
+
+  border: 1px solid #dfe1e6;
+  border-radius: 4px;
+
+  background-color: white;
+
+  font-size: 0.95rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
 }
 
-footer > img {
-  width: 200px;
+.social-button:hover {
+  background-color: #f4f5f7;
 }
 
-#footer_fixo {
+.social-button img {
+  width: 20px;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+.login-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 0.9rem;
+}
+
+.login-links a {
+  text-decoration: none;
+  color: #0052cc;
+}
+
+.login-links a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   FOOTER FIXO
+========================= */
+
+.footer-fixed {
   position: fixed;
+
   bottom: 0;
   left: 0;
+
   width: 100%;
+
   display: flex;
   justify-content: space-between;
-  z-index: 1000;
-  padding: 10px 20px;
+
+  padding: 15px 25px;
+
+  pointer-events: none;
 }
 
-#footer_fixo > img {
+.footer-fixed img {
   width: 250px;
+  opacity: 0.8;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.main-footer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.main-footer img {
+  width: 180px;
+}
+
+.main-footer p {
+  font-size: 0.9rem;
+  color: #5e6c84;
+}
+
+.main-footer a {
+  color: #0052cc;
+  text-decoration: none;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Links footer */
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 0.85rem;
 }
