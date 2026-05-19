@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap fundamentos</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+    </head>
+  <body>
+
+    <div class="container bg-light border">
+    
+    <!--  
+    card
+      card-body 
+        card-title
+        card-subtitle 
+    -->
+    <h3 class="border-bottom">Cartão simples</h3>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-success" href="">Leia mais</a>
+      </div>
+    </div>
+
+    <br><br>
+
+    <!-- card-img-top | bottom -->
+    <h3 class="border-bottom">Cartão com imagem</h3>
+    <div class="card">
+      <img class="card-img-top" src="img/praia.jpg" alt="">
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-success" href="">Leia mais</a>
+      </div>
+      <!-- <img class="card-img-bottom" src="img/praia.jpg" alt=""> -->
+    </div>
+
+    <br><br>
+
+    <!-- card-img-overlay -->
+    <h3 class="border-bottom">Cartão com imagem sobreposta</h3>
+    <div class="card">
+      <img class="card-img" src="img/praia2.jpg" alt="">
+      <div class="card-img-overlay">
+        <h4 class="card-title display-1">Título do cartão</h4>
+        <h6 class="card-subtitle display-3">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-success" href="">Leia mais</a>
+      </div>
+      <!-- <img class="card-img-bottom" src="img/praia.jpg" alt=""> -->
+    </div>
+    
+
+    <br><br>
+
+    <!-- card-header -->
+    <h3 class="border-bottom">Cartão com cabeçalho e rodapé</h3>
+    <div class="card">
+
+      <div class="card-header">
+        <h1>Cabeçalho</h1>
+      </div>
+
+      <div class="card-body">
+        <h4 class="card-title">Título do cartão</h4>
+        <h6 class="card-subtitle">Subtítulo do cartão</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-success" href="">Leia mais</a>
+      </div>
+      
+      <div class="card-footer">
+        Rodapé
+      </div>
+
+    </div>
+  
+
+    <br><br>
+
+    <!-- 
+    card
+      card-header
+      card-body
+    -->
+    <h3 class="border-bottom">Cartão com navegação</h3>
+    <div class="card">
+      
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Link 3</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-body">
+        <h4>Título do cartão</h4>
+        <h6>Subtítulo do cartão</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien dui, feugiat et lorem quis, fringilla maximus nisl. Vivamus sed est pulvinar, aliquet purus ut, dictum elit.</p>
+        <a class="btn btn-outline-danger w-100" href="">Leia mais</a>
+      </div>
+    </div>
+
+    <br><br>
+
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

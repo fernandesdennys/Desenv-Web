@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap fundamentos</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+    </head>
+  <body>
+
+    <div class="container py-3">
+
+
+    <!-- Listas 
+    list-group list-group-flush
+        list-group-item  (active)
+    -->
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-action">Meu item de lista 1</li>
+        <li class="list-group-item list-group-item-action">Meu item de lista 2</li>
+        <li class="list-group-item list-group-item-action">Meu item de lista 3</li>
+        <li class="list-group-item list-group-item-action">Meu item de lista 4</li>
+    </ul>
+    <br><br>
+
+    <!-- Listas com classes contextuais 
+        classe: list-group-item-<opcoes>
+        opções: primary, secondary, success, info,
+                warning, danger, light, dark
+    -->
+    <ul class="list-group">
+        <li class="list-group-item">Lista normal</li>
+        <li class="list-group-item list-group-item-primary">Lista primary</li>
+        <li class="list-group-item list-group-item-secondary">Lista secondary</li>
+        <li class="list-group-item list-group-item-success">Lista success</li>
+        <li class="list-group-item list-group-item-info">Lista info</li>
+        <li class="list-group-item list-group-item-warning">Lista warning</li>
+        <li class="list-group-item list-group-item-danger">Lista danger</li>
+        <li class="list-group-item list-group-item-light">Lista light</li>
+        <li class="list-group-item list-group-item-dark">Lista dark</li>
+    </ul>
+    <br><br>
+
+    <!-- Badge 
+        classe: badge bg-<cor>
+        opções: primary, secondary, success, info,
+                warning, danger, light, dark
+    -->
+    <ul class="list-group">
+        <li class="list-group-item">
+            Caixa de entrada
+            <span class="badge bg-danger">10</span>
+        </li>
+        <li class="list-group-item">Com estrela</li>
+        <li class="list-group-item">
+            Importante
+            <span class="badge bg-warning">5</span>
+        </li>
+        <li class="list-group-item">Social</li>
+    </ul>
+    <br><br>
+    
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
